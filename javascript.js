@@ -9,6 +9,7 @@ function convertForUIListToArray () {
          arr.push(node.textContent);
     });
 
+    console.log("!!!!!!");
     console.log("!!!!!!!!");
     console.log(arr);
 
