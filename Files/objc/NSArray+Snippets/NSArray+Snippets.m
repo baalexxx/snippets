@@ -8,6 +8,14 @@
 
 #import "NSArray+Snippets.h"
 
-@implementation NSArray_Snippets
+@implementation NSArray(Snippets)
+
+- (NSArray*) arrayWithoutNils {
+    
+    NSPredicate *predicate=[NSPredicate predicateWithFormat:@"SELF!=nil"];
+    NSArray *res = [self filteredArrayUsingPredicate: predicate];
+    
+    return res;
+}
 
 @end

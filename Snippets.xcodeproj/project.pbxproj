@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		72AA01F41C297BBB00838382 /* Files in Resources */ = {isa = PBXBuildFile; fileRef = 72AA01F31C297BBB00838382 /* Files */; };
+		72AA020C1C29830600838382 /* NSArray+Snippets.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AA02081C29830600838382 /* NSArray+Snippets.m */; };
+		72AA020D1C29830600838382 /* NSString+Version.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AA020B1C29830600838382 /* NSString+Version.m */; };
 		72F7F9D31C29787000B16D76 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F7F9D21C29787000B16D76 /* AppDelegate.m */; };
 		72F7F9D61C29787000B16D76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F7F9D51C29787000B16D76 /* main.m */; };
 		72F7F9D81C29787000B16D76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72F7F9D71C29787000B16D76 /* Assets.xcassets */; };
@@ -15,7 +16,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		72AA01F31C297BBB00838382 /* Files */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Files; sourceTree = SOURCE_ROOT; };
+		72AA01FD1C29826200838382 /* javascript.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = javascript.js; path = Files/Javascript/javascript.js; sourceTree = SOURCE_ROOT; };
+		72AA02001C2982A300838382 /* textureUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = textureUnit.m; path = Files/objc/textureUnit.m; sourceTree = SOURCE_ROOT; };
+		72AA02071C29830600838382 /* NSArray+Snippets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Snippets.h"; sourceTree = "<group>"; };
+		72AA02081C29830600838382 /* NSArray+Snippets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Snippets.m"; sourceTree = "<group>"; };
+		72AA020A1C29830600838382 /* NSString+Version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Version.h"; sourceTree = "<group>"; };
+		72AA020B1C29830600838382 /* NSString+Version.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Version.m"; sourceTree = "<group>"; };
 		72F7F9CE1C29787000B16D76 /* Snippets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snippets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72F7F9D11C29787000B16D76 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		72F7F9D21C29787000B16D76 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -36,6 +42,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		72AA01FB1C29824000838382 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				72AA01FF1C29828300838382 /* objc */,
+				72AA01FC1C29825500838382 /* Javascript */,
+			);
+			name = Files;
+			sourceTree = "<group>";
+		};
+		72AA01FC1C29825500838382 /* Javascript */ = {
+			isa = PBXGroup;
+			children = (
+				72AA01FD1C29826200838382 /* javascript.js */,
+			);
+			name = Javascript;
+			sourceTree = "<group>";
+		};
+		72AA01FF1C29828300838382 /* objc */ = {
+			isa = PBXGroup;
+			children = (
+				72AA02061C29830600838382 /* NSArray+Snippets */,
+				72AA02091C29830600838382 /* NSString+Version */,
+				72AA02001C2982A300838382 /* textureUnit.m */,
+			);
+			name = objc;
+			sourceTree = "<group>";
+		};
+		72AA02061C29830600838382 /* NSArray+Snippets */ = {
+			isa = PBXGroup;
+			children = (
+				72AA02071C29830600838382 /* NSArray+Snippets.h */,
+				72AA02081C29830600838382 /* NSArray+Snippets.m */,
+			);
+			name = "NSArray+Snippets";
+			path = "Files/objc/NSArray+Snippets";
+			sourceTree = SOURCE_ROOT;
+		};
+		72AA02091C29830600838382 /* NSString+Version */ = {
+			isa = PBXGroup;
+			children = (
+				72AA020A1C29830600838382 /* NSString+Version.h */,
+				72AA020B1C29830600838382 /* NSString+Version.m */,
+			);
+			name = "NSString+Version";
+			path = "Files/objc/NSString+Version";
+			sourceTree = SOURCE_ROOT;
+		};
 		72F7F9C51C29787000B16D76 = {
 			isa = PBXGroup;
 			children = (
@@ -55,7 +108,7 @@
 		72F7F9D01C29787000B16D76 /* Snippets */ = {
 			isa = PBXGroup;
 			children = (
-				72AA01F31C297BBB00838382 /* Files */,
+				72AA01FB1C29824000838382 /* Files */,
 				72F7F9D11C29787000B16D76 /* AppDelegate.h */,
 				72F7F9D21C29787000B16D76 /* AppDelegate.m */,
 				72F7F9D71C29787000B16D76 /* Assets.xcassets */,
@@ -131,7 +184,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72AA01F41C297BBB00838382 /* Files in Resources */,
 				72F7F9D81C29787000B16D76 /* Assets.xcassets in Resources */,
 				72F7F9DB1C29787000B16D76 /* MainMenu.xib in Resources */,
 			);
@@ -144,7 +196,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72AA020C1C29830600838382 /* NSArray+Snippets.m in Sources */,
 				72F7F9D61C29787000B16D76 /* main.m in Sources */,
+				72AA020D1C29830600838382 /* NSString+Version.m in Sources */,
 				72F7F9D31C29787000B16D76 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

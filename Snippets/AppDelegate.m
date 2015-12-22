@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+#import "NSArray+Snippets.h"
+
 @interface AppDelegate ()
 
 @property (weak) IBOutlet NSWindow *window;
@@ -17,10 +19,19 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
+    
+    NSArray* arr = @[@1, [NSNull null], @1];
+    
+    arr = [arr arrayWithoutNils];
+    
+    
+    
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
     // Insert code here to tear down your application
+    
+    
 }
 
 @end
