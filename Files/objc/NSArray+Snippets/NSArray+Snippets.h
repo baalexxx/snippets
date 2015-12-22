@@ -6,8 +6,7 @@
 //  Copyright © 2015 baevsoft. All rights reserved.
 //
 
-//#import <Foundation/Foundation.h>
-#import <Cocoa/Cocoa.h>
+#import <Foundation/Foundation.h>
 
 @interface NSArray(Snippets)
 
