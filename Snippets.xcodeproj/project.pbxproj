@@ -9,11 +9,22 @@
 /* Begin PBXBuildFile section */
 		72AA020C1C29830600838382 /* NSArray+Snippets.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AA02081C29830600838382 /* NSArray+Snippets.m */; };
 		72AA020D1C29830600838382 /* NSString+Version.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AA020B1C29830600838382 /* NSString+Version.m */; };
+		72AA02151C2984FB00838382 /* SnippetsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AA02141C2984FB00838382 /* SnippetsTests.m */; };
 		72F7F9D31C29787000B16D76 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F7F9D21C29787000B16D76 /* AppDelegate.m */; };
 		72F7F9D61C29787000B16D76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F7F9D51C29787000B16D76 /* main.m */; };
 		72F7F9D81C29787000B16D76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72F7F9D71C29787000B16D76 /* Assets.xcassets */; };
 		72F7F9DB1C29787000B16D76 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72F7F9D91C29787000B16D76 /* MainMenu.xib */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		72AA02171C2984FB00838382 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72F7F9C61C29787000B16D76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72F7F9CD1C29787000B16D76;
+			remoteInfo = Snippets;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		72AA01FD1C29826200838382 /* javascript.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = javascript.js; path = Files/Javascript/javascript.js; sourceTree = SOURCE_ROOT; };
@@ -22,6 +33,9 @@
 		72AA02081C29830600838382 /* NSArray+Snippets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Snippets.m"; sourceTree = "<group>"; };
 		72AA020A1C29830600838382 /* NSString+Version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Version.h"; sourceTree = "<group>"; };
 		72AA020B1C29830600838382 /* NSString+Version.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Version.m"; sourceTree = "<group>"; };
+		72AA02121C2984FB00838382 /* SnippetsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnippetsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72AA02141C2984FB00838382 /* SnippetsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnippetsTests.m; sourceTree = "<group>"; };
+		72AA02161C2984FB00838382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		72F7F9CE1C29787000B16D76 /* Snippets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snippets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72F7F9D11C29787000B16D76 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		72F7F9D21C29787000B16D76 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -32,6 +46,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		72AA020F1C2984FB00838382 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		72F7F9CB1C29787000B16D76 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -89,10 +110,20 @@
 			path = "Files/objc/NSString+Version";
 			sourceTree = SOURCE_ROOT;
 		};
+		72AA02131C2984FB00838382 /* SnippetsTests */ = {
+			isa = PBXGroup;
+			children = (
+				72AA02141C2984FB00838382 /* SnippetsTests.m */,
+				72AA02161C2984FB00838382 /* Info.plist */,
+			);
+			path = SnippetsTests;
+			sourceTree = "<group>";
+		};
 		72F7F9C51C29787000B16D76 = {
 			isa = PBXGroup;
 			children = (
 				72F7F9D01C29787000B16D76 /* Snippets */,
+				72AA02131C2984FB00838382 /* SnippetsTests */,
 				72F7F9CF1C29787000B16D76 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				72F7F9CE1C29787000B16D76 /* Snippets.app */,
+				72AA02121C2984FB00838382 /* SnippetsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -130,6 +162,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		72AA02111C2984FB00838382 /* SnippetsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72AA02191C2984FB00838382 /* Build configuration list for PBXNativeTarget "SnippetsTests" */;
+			buildPhases = (
+				72AA020E1C2984FB00838382 /* Sources */,
+				72AA020F1C2984FB00838382 /* Frameworks */,
+				72AA02101C2984FB00838382 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72AA02181C2984FB00838382 /* PBXTargetDependency */,
+			);
+			name = SnippetsTests;
+			productName = SnippetsTests;
+			productReference = 72AA02121C2984FB00838382 /* SnippetsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		72F7F9CD1C29787000B16D76 /* Snippets */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 72F7F9DF1C29787000B16D76 /* Build configuration list for PBXNativeTarget "Snippets" */;
@@ -156,6 +206,10 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = baevsoft;
 				TargetAttributes = {
+					72AA02111C2984FB00838382 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 72F7F9CD1C29787000B16D76;
+					};
 					72F7F9CD1C29787000B16D76 = {
 						CreatedOnToolsVersion = 7.2;
 					};
@@ -175,11 +229,19 @@
 			projectRoot = "";
 			targets = (
 				72F7F9CD1C29787000B16D76 /* Snippets */,
+				72AA02111C2984FB00838382 /* SnippetsTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		72AA02101C2984FB00838382 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		72F7F9CC1C29787000B16D76 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -192,6 +254,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		72AA020E1C2984FB00838382 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72AA02151C2984FB00838382 /* SnippetsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		72F7F9CA1C29787000B16D76 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -205,6 +275,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		72AA02181C2984FB00838382 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72F7F9CD1C29787000B16D76 /* Snippets */;
+			targetProxy = 72AA02171C2984FB00838382 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		72F7F9D91C29787000B16D76 /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
@@ -217,6 +295,32 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		72AA021A1C2984FB00838382 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SnippetsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baevsoft.SnippetsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snippets.app/Contents/MacOS/Snippets";
+			};
+			name = Debug;
+		};
+		72AA021B1C2984FB00838382 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SnippetsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baevsoft.SnippetsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snippets.app/Contents/MacOS/Snippets";
+			};
+			name = Release;
+		};
 		72F7F9DD1C29787000B16D76 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -323,6 +427,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		72AA02191C2984FB00838382 /* Build configuration list for PBXNativeTarget "SnippetsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72AA021A1C2984FB00838382 /* Debug */,
+				72AA021B1C2984FB00838382 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		72F7F9C91C29787000B16D76 /* Build configuration list for PBXProject "Snippets" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

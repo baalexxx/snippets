@@ -18,4 +18,11 @@
     return res;
 }
 
+- (void) testArrayWithoutNils {
+    
+    
+}
+
+
+
 @end
