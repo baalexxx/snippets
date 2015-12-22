@@ -10,6 +10,7 @@
 		72AA020C1C29830600838382 /* NSArray+Snippets.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AA02081C29830600838382 /* NSArray+Snippets.m */; };
 		72AA020D1C29830600838382 /* NSString+Version.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AA020B1C29830600838382 /* NSString+Version.m */; };
 		72AA02151C2984FB00838382 /* SnippetsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AA02141C2984FB00838382 /* SnippetsTests.m */; };
+		72AA02211C29860F00838382 /* NSArray+SnippetsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AA02201C29860F00838382 /* NSArray+SnippetsTests.m */; };
 		72F7F9D31C29787000B16D76 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F7F9D21C29787000B16D76 /* AppDelegate.m */; };
 		72F7F9D61C29787000B16D76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F7F9D51C29787000B16D76 /* main.m */; };
 		72F7F9D81C29787000B16D76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72F7F9D71C29787000B16D76 /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 		72AA02121C2984FB00838382 /* SnippetsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnippetsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		72AA02141C2984FB00838382 /* SnippetsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnippetsTests.m; sourceTree = "<group>"; };
 		72AA02161C2984FB00838382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72AA02201C29860F00838382 /* NSArray+SnippetsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+SnippetsTests.m"; path = "Files/objc/NSArray+Snippets/NSArray+SnippetsTests.m"; sourceTree = SOURCE_ROOT; };
 		72F7F9CE1C29787000B16D76 /* Snippets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snippets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72F7F9D11C29787000B16D76 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		72F7F9D21C29787000B16D76 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				72AA02141C2984FB00838382 /* SnippetsTests.m */,
+				72AA02201C29860F00838382 /* NSArray+SnippetsTests.m */,
 				72AA02161C2984FB00838382 /* Info.plist */,
 			);
 			path = SnippetsTests;
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72AA02211C29860F00838382 /* NSArray+SnippetsTests.m in Sources */,
 				72AA02151C2984FB00838382 /* SnippetsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

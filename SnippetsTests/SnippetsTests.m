@@ -7,6 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "NSArray+Snippets.h"
 
 @interface SnippetsTests : XCTestCase
 
@@ -35,5 +36,12 @@
         // Put the code you want to measure the time of here.
     }];
 }
+
+
+- (void) testArrayWithoutNils {
+    
+    
+}
+
 
 @end
