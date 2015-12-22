@@ -1,3 +1,5 @@
+#import <Cocoa/Cocoa.h>
+
 - (NSImage*) _drawTile
 {
     //отрисовка tiledTexture через матрицу трансформации.
