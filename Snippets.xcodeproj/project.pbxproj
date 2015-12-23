@@ -11,6 +11,7 @@
 		72AA020D1C29830600838382 /* NSString+Version.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AA020B1C29830600838382 /* NSString+Version.m */; };
 		72AA02151C2984FB00838382 /* SnippetsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AA02141C2984FB00838382 /* SnippetsTests.m */; };
 		72AA02211C29860F00838382 /* NSArray+SnippetsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AA02201C29860F00838382 /* NSArray+SnippetsTests.m */; };
+		72B493381C2AEAE200ED8769 /* Documents in Resources */ = {isa = PBXBuildFile; fileRef = 72B493371C2AEAE200ED8769 /* Documents */; };
 		72F7F9D31C29787000B16D76 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F7F9D21C29787000B16D76 /* AppDelegate.m */; };
 		72F7F9D61C29787000B16D76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F7F9D51C29787000B16D76 /* main.m */; };
 		72F7F9D81C29787000B16D76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72F7F9D71C29787000B16D76 /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 		72AA02141C2984FB00838382 /* SnippetsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnippetsTests.m; sourceTree = "<group>"; };
 		72AA02161C2984FB00838382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		72AA02201C29860F00838382 /* NSArray+SnippetsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+SnippetsTests.m"; path = "Files/objc/NSArray+Snippets/NSArray+SnippetsTests.m"; sourceTree = SOURCE_ROOT; };
+		72B493371C2AEAE200ED8769 /* Documents */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Documents; sourceTree = SOURCE_ROOT; };
 		72F7F9CE1C29787000B16D76 /* Snippets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snippets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72F7F9D11C29787000B16D76 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		72F7F9D21C29787000B16D76 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 		72AA01FB1C29824000838382 /* Files */ = {
 			isa = PBXGroup;
 			children = (
+				72AA02231C298DF000838382 /* bash */,
 				72AA01FF1C29828300838382 /* objc */,
 				72AA01FC1C29825500838382 /* Javascript */,
 			);
@@ -122,6 +125,13 @@
 			path = SnippetsTests;
 			sourceTree = "<group>";
 		};
+		72AA02231C298DF000838382 /* bash */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = bash;
+			sourceTree = "<group>";
+		};
 		72F7F9C51C29787000B16D76 = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				72AA01FB1C29824000838382 /* Files */,
+				72B493371C2AEAE200ED8769 /* Documents */,
 				72F7F9D11C29787000B16D76 /* AppDelegate.h */,
 				72F7F9D21C29787000B16D76 /* AppDelegate.m */,
 				72F7F9D71C29787000B16D76 /* Assets.xcassets */,
@@ -251,6 +262,7 @@
 			files = (
 				72F7F9D81C29787000B16D76 /* Assets.xcassets in Resources */,
 				72F7F9DB1C29787000B16D76 /* MainMenu.xib in Resources */,
+				72B493381C2AEAE200ED8769 /* Documents in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +450,7 @@
 				72AA021B1C2984FB00838382 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		72F7F9C91C29787000B16D76 /* Build configuration list for PBXProject "Snippets" */ = {
 			isa = XCConfigurationList;
