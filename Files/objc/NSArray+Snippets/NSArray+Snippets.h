@@ -18,4 +18,11 @@
 - (NSArray*) arrayWithoutNils;
 
 
+// Selection Sort
+//
+// https://gist.github.com/justinmpier/6789529
+//
+- (NSArray *)sortArray:(NSArray *)originalArray usingSelectionSortAlgorithmInDescendingOrder:(BOOL)descendingOrder;
+
+
 @end
