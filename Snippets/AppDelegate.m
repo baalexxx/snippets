@@ -20,7 +20,7 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
     
-    NSArray* arr = @[@1, [NSNull null], @1];
+    NSArray* arr = @[@1, [NSNull null], @1, @1];
     arr = [arr arrayWithoutNils];
 }
 
