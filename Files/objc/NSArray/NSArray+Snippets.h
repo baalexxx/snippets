@@ -10,9 +10,11 @@
 
 @interface NSArray(Snippets)
 
+
+// Remove NSNull values in a KVC generated NSMutableArray
+//
 // http://stackoverflow.com/questions/28547215/remove-nsnull-values-in-a-kvc-generated-nsmutablearray
 //
-// Remove NSNull values in a KVC generated NSMutableArray
 //
 
 - (NSArray*) arrayWithoutNils;

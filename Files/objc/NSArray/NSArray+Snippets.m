@@ -20,7 +20,6 @@
 
 
 // Selection Sort
-
 - (NSArray *)sortArray:(NSArray *)originalArray usingSelectionSortAlgorithmInDescendingOrder:(BOOL)descendingOrder {
     for (NSUInteger i = 0; i < [originalArray count]; i++) {
         if (![[originalArray objectAtIndex:i] isKindOfClass:[NSNumber class]]) {

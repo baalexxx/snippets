@@ -47,6 +47,7 @@
 		9B445FBF1C2B4BA300AED5AA /* NSArray+Snippets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Snippets.m"; path = "Files/objc/NSArray/NSArray+Snippets.m"; sourceTree = SOURCE_ROOT; };
 		9B445FC11C2B4BBF00AED5AA /* NSString+Version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Version.h"; path = "Files/objc/NSString/NSString+Version.h"; sourceTree = SOURCE_ROOT; };
 		9B445FC21C2B4BBF00AED5AA /* NSString+Version.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Version.m"; path = "Files/objc/NSString/NSString+Version.m"; sourceTree = SOURCE_ROOT; };
+		9B445FC41C2B4CE900AED5AA /* CommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommonFunctions.m; path = Files/objc/CommonFunctions.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +92,7 @@
 				72AA02061C29830600838382 /* NSArray */,
 				72AA02091C29830600838382 /* NSString */,
 				72AA02001C2982A300838382 /* textureUnit.m */,
+				9B445FC41C2B4CE900AED5AA /* CommonFunctions.m */,
 			);
 			name = objc;
 			sourceTree = "<group>";
