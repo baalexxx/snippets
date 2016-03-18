@@ -8,4 +8,7 @@
 
 
 # Edit an incorrect commit message in Git
+#
+# http://stackoverflow.com/questions/179123/edit-an-incorrect-commit-message-in-git
+
 git commit --amend -m "New commit message"
