@@ -29,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		72A6AD571C9C41660050F7F1 /* Script.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = Script.sh; sourceTree = "<group>"; };
 		72AA01FD1C29826200838382 /* javascript.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = javascript.js; path = Files/Javascript/javascript.js; sourceTree = SOURCE_ROOT; };
 		72AA02001C2982A300838382 /* textureUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = textureUnit.m; path = Files/objc/textureUnit.m; sourceTree = SOURCE_ROOT; };
 		72AA02121C2984FB00838382 /* SnippetsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnippetsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -130,6 +131,7 @@
 		72AA02231C298DF000838382 /* bash */ = {
 			isa = PBXGroup;
 			children = (
+				72A6AD571C9C41660050F7F1 /* Script.sh */,
 			);
 			name = bash;
 			sourceTree = "<group>";
