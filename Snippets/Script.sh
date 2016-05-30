@@ -12,3 +12,7 @@
 # http://stackoverflow.com/questions/179123/edit-an-incorrect-commit-message-in-git
 
 git commit --amend -m "New commit message"
+
+# Run Script, Removing 'Created by'
+
+find $PROJECT_DIR -name "*.[hm]" -type f  -exec sed -i '' 's/^\/\/  Created by .*$/\/\//g' {} +
